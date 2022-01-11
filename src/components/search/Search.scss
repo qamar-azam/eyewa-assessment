@@ -1,0 +1,23 @@
+.search-bar {
+  margin-bottom: 50px;
+}
+
+.search-suggestion {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px 0 rgba(25, 25, 34, 0.24);
+  padding: 10px 20px;
+  position: absolute;
+  top: 105%;
+  width: 100%;
+  height: 250px;
+  overflow-y: scroll;
+  z-index: 9;
+}
+
+.search-suggestion ul {
+  padding: 0;
+  li {
+    list-style: none;
+  }
+}
